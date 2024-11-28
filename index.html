@@ -19,6 +19,28 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    rel="stylesheet"
+>
+<script
+    src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"
+    defer
+></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        AOS.init();
+    });
+
+    
+
+
+
+
+
+
+</script>
 </head>
 <body>
     <!-- Barra de navegación -->
@@ -29,7 +51,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto nav-expand">
                     <li class="nav-item"><a class="nav-link" href="#educacion">Educación</a></li>
                     <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portafolio">Portafolio</a></li>
@@ -39,8 +61,22 @@
         </div>
     </nav>
 
+<!-- Banner o Introducción -->
+<section id="about" class="py-5 text-center" style="background-color: #9096ac; color: #3f3b64;">
+    <div class="container">
+        <img src="https://via.placeholder.com/100" alt="Foto de perfil" class="rounded-circle mb-3 shadow-sm">
+        <h1 class="fw-bold" style="font-size: 2rem;"> ¡Hola, soy Deisy Livingston! </h1>
+        <p class="text-white"  style="max-width: 600px; margin: 0 auto;">
+            Especialista en marketing digital y comercio electronico, con experiencia en programación , desarrollo de sitios web y aplicaciones móviles con habilidades en HTML5, CSS y Bootstrap. 
+            <br> 
+            <p><strong class="text-white" >Mi objetivo crear experiencias digitales que conecten marcas con usuarios</strong></p>
+
+    </div>
+</section>
+
+
     <!-- Sección de Educación -->
-    <section id="educacion" class="py-5 bg-light">
+    <section id="educacion" class="py-5 bg-light fade-in">
         <div class="container">
             <h2 class="text-center mb-4">Educación</h2>
             <ul class="list-unstyled">
@@ -51,7 +87,7 @@
     </section>
 
     <!-- Sección de Experiencia -->
-    <section id="experiencia" class="py-5">
+    <section id="experiencia" class="py-5 bg-light fade-in"">
         <div class="container">
             <h2 class="text-center mb-4">Experiencia</h2>
             <ul class="list-unstyled">
@@ -62,17 +98,17 @@
     </section>
 
     <!-- Sección de Portafolio -->
-    <section id="portafolio" class="py-5 bg-light">
+    <section id="portafolio" class="py-5 bg-light fade-in"">
         <div class="container">
             <h2 class="text-center mb-4">Portafolio</h2>
             <div class="row">
                 <!-- Proyecto 1 -->
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="https://via.placeholder.com/350" class="card-img-top" alt="Proyecto 1">
+                        <img src="./assets/img/proy1.jpg" class="card-img-top" alt="Proyecto 1">
                         <div class="card-body">
                             <h5 class="card-title">Proyecto 1</h5>
-                            <p class="card-text">Descripción breve del proyecto.</p>
+                            <p class="card-text">Tienda online de Promociones</p>
                             <a href="#" class="btn btn-primary" target="_blank">Ver más</a>
                         </div>
                     </div>
@@ -80,10 +116,10 @@
                 <!-- Proyecto 2 -->
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="https://via.placeholder.com/350" class="card-img-top" alt="Proyecto 2">
+                        <img src="./assets/img/proy2.jpg" class="card-img-top" alt="Proyecto 2">
                         <div class="card-body">
                             <h5 class="card-title">Proyecto 2</h5>
-                            <p class="card-text">Descripción breve del proyecto.</p>
+                            <p class="card-text"> LandingPage.</p>
                             <a href="#" class="btn btn-primary" target="_blank">Ver más</a>
                         </div>
                     </div>
@@ -91,10 +127,10 @@
                 <!-- Proyecto 3 -->
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="https://via.placeholder.com/350" class="card-img-top" alt="Proyecto 3">
+                        <img src="./assets/img/proy3.jpg" class="card-img-top" alt="Proyecto 3">
                         <div class="card-body">
                             <h5 class="card-title">Proyecto 3</h5>
-                            <p class="card-text">Descripción breve del proyecto.</p>
+                            <p class="card-text">Catalogo-Venta de Propiedades</p>
                             <a href="#" class="btn btn-primary" target="_blank">Ver más</a>
                         </div>
                     </div>
@@ -105,9 +141,9 @@
 
     <!-- Footer -->
     <footer id="contacto" class="py-3 bg-dark text-light text-center">
-        <p>© 2024 Mi Nombre - Todos los derechos reservados</p>
+        <p>© 2024 By Dliving - Todos los derechos reservados</p>
         <p>
-            <a href="mailto:miemail@gmail.com" class="text-light"><i class="fas fa-envelope"></i> miemail@gmail.com</a>
+            <a href="mailto:miemail@gmail.com" class="text-light"><i class="fas fa-envelope"></i> living.gaby@gmail.com</a>
             | 
             <a href="https://www.linkedin.com/in/miusuario/" target="_blank" class="text-light"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </p>
